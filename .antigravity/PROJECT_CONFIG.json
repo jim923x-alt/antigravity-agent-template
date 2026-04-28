@@ -1,0 +1,13 @@
+{
+  "template_version": "1.0",
+  "memory_strategy": {
+    "static_files": ["STATIC_MEMORY.md", "CORE_RULES.md"],
+    "long_term_file": "LONG_TERM_MEMORY.md",
+    "max_long_term_kb": 5,
+    "token_optimization": true
+  },
+  "default_agents": [
+    {"role": "Orchestrator", "model": "Gemini 3.1 Pro (low)"},
+    {"role": "Scraper", "model": "Gemini Flash"}
+  ]
+}
