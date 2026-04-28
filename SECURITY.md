@@ -1,4 +1,0 @@
-- Never expose API keys in code
-- Respect robots.txt and rate limits
-- Only public permit data
-- Firestore rules: agent write, user read
